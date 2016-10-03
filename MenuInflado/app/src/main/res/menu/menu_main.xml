@@ -1,15 +1,18 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.deama.menuinflado.MainActivity">
 
 
     <item android:id="@+id/MenuOpc1"
-        android:title="Opción 1"/>
+        android:title="Opción 1"
+	app:showAsAction="always/>
     <item android:id="@+id/MenuOpc2"
-        android:title="Opción 2"/>
+        android:title="Opción 2"
+	app:showAsAction="always/>
     <item android:id="@+id/MenuOpc3"
-        android:title="Opción 3">
+        android:title="Opción 3
+	app:showAsAction="always">
         <menu>
             <item android:id="@+id/SubMenuOpc1"
                 android:title="Opción 3.1"/>
